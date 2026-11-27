@@ -1,8 +1,27 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { siteConfig } from '../config/siteConfig';
 import { Phone, Mail, MapPin, Compass, ArrowUp } from 'lucide-react';
+import { GirihPattern } from './DecorativePattern';
+
+const footerContainer = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08 },
+  },
+};
+
+const footerCol = {
+  hidden: { opacity: 0, y: 18 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
+  },
+};
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -13,12 +32,23 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="w-full bg-card text-content border-t border-border mt-auto">
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+    <footer className="relative w-full bg-card text-content border-t border-border mt-auto overflow-hidden">
+      <GirihPattern
+        id="footer-girih"
+        className="absolute -bottom-24 -right-20 w-[300px] h-[300px] text-primary/[0.06] dark:text-primary/[0.07]"
+      />
+
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 py-12 relative z-10">
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10"
+          variants={footerContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+        >
           
           {/* Brand & Slogan */}
-          <div className="space-y-4">
+          <motion.div variants={footerCol} className="space-y-4">
             <div className="flex items-center gap-3">
               <img
                 src="/media/logo.png"
@@ -34,10 +64,10 @@ export const Footer = () => {
             <p className="text-xs text-muted leading-relaxed">
               {t('main.description')}
             </p>
-          </div>
+          </motion.div>
 
           {/* Quick Links 1 */}
-          <div className="space-y-3">
+          <motion.div variants={footerCol} className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-primary">Sahifalar</h4>
             <ul className="space-y-2 text-xs text-muted">
               <li>
@@ -53,10 +83,10 @@ export const Footer = () => {
                 <Link to="/contents" className="hover:text-primary transition-colors cursor-pointer">{t('navlinks.content')}</Link>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Quick Links 2 */}
-          <div className="space-y-3">
+          <motion.div variants={footerCol} className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-primary">Festival</h4>
             <ul className="space-y-2 text-xs text-muted">
               <li>
@@ -81,10 +111,10 @@ export const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Contact Details */}
-          <div className="space-y-3">
+          <motion.div variants={footerCol} className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-primary">{t('contact.title', 'Aloqa')}</h4>
             <div className="space-y-2 text-xs text-muted">
               <div className="flex items-center gap-2">
@@ -120,9 +150,9 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-        </div>
+        </motion.div>
 
         {/* Bottom bar */}
         <div className="pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted">

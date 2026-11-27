@@ -1,42 +1,38 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { MotionConfig } from 'framer-motion';
 import { AccessibilityProvider } from './context/AccessibilityContext';
 import { AuthProvider } from './context/AuthContext';
 import { RootLayout } from './layouts/RootLayout';
 
 import { HomePage } from './pages/HomePage';
-import { AboutPage } from './pages/AboutPage';
-import { ContentsPage } from './pages/ContentsPage';
-import { GalleryPage } from './pages/GalleryPage';
-import { NominationPage } from './pages/NominationPage';
-import { NewsPage, NewsDetailPage } from './pages/NewsPage';
-import { TicketsPage, MyTicketsPage } from './pages/TicketsPage';
-import { ContactPage } from './pages/ContactPage';
-import { LoginPage, RegisterPage, ProfilePage, NotFoundPage } from './pages/AuthPages';
+import { ComingSoon } from './components/ComingSoon';
 
 export default function App() {
   return (
-    <AccessibilityProvider>
-      <AuthProvider>
-        <Routes>
-          <Route path="/" element={<RootLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="contents" element={<ContentsPage />} />
-            <Route path="gallery" element={<GalleryPage />} />
-            <Route path="nomination" element={<NominationPage />} />
-            <Route path="news" element={<NewsPage />} />
-            <Route path="news/:id" element={<NewsDetailPage />} />
-            <Route path="tickets" element={<TicketsPage />} />
-            <Route path="tickets/me" element={<MyTicketsPage />} />
-            <Route path="contact" element={<ContactPage />} />
-            <Route path="login" element={<LoginPage />} />
-            <Route path="register" element={<RegisterPage />} />
-            <Route path="profile" element={<ProfilePage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Route>
-        </Routes>
-      </AuthProvider>
-    </AccessibilityProvider>
+    <MotionConfig reducedMotion="user">
+      <AccessibilityProvider>
+        <AuthProvider>
+          <Routes>
+            <Route path="/" element={<RootLayout />}>
+              <Route index element={<HomePage />} />
+              <Route path="about" element={<ComingSoon />} />
+              <Route path="contents" element={<ComingSoon />} />
+              <Route path="gallery" element={<ComingSoon />} />
+              <Route path="nomination" element={<ComingSoon />} />
+              <Route path="news" element={<ComingSoon />} />
+              <Route path="news/:id" element={<ComingSoon />} />
+              <Route path="tickets" element={<ComingSoon />} />
+              <Route path="tickets/me" element={<ComingSoon />} />
+              <Route path="contact" element={<ComingSoon />} />
+              <Route path="login" element={<ComingSoon />} />
+              <Route path="register" element={<ComingSoon />} />
+              <Route path="profile" element={<ComingSoon />} />
+              <Route path="*" element={<ComingSoon />} />
+            </Route>
+          </Routes>
+        </AuthProvider>
+      </AccessibilityProvider>
+    </MotionConfig>
   );
 }
