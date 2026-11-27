@@ -229,3 +229,30 @@ html.text-size-large {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(var(--primary-rgb) / 0.75);
 }
+
+/* Custom Video Player Range Sliders */
+.video-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.video-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: var(--primary);
+  border: 2px solid var(--card);
+  cursor: pointer;
+}
+.video-range::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: var(--primary);
+  border: 2px solid var(--card);
+  cursor: pointer;
+}
