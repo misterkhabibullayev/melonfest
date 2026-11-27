@@ -89,7 +89,7 @@ export const AccessibilityModal = () => {
                     onClick={() => changeTextSize(item.key)}
                     className={`py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer focus-ring ${
                       textSize === item.key
-                        ? "bg-primary text-primary-foreground shadow-sm"
+                        ? "bg-primary text-primary-foreground"
                         : "text-muted hover:text-content hover:bg-card"
                     }`}
                     title={item.title}

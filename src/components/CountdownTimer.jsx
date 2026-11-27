@@ -55,16 +55,17 @@ export const CountdownTimer = () => {
         <span className="font-bold text-white tracking-wide">{t('hero.countdown_title', 'Festival boshlanadi')}:</span>
       </div>
 
-      {/* 4 Distinct Standalone Unit Cards */}
+      {/* 4 Distinct Standalone Unit Cards (card animation only, no number countup) */}
       <div className="grid grid-cols-4 gap-2.5 sm:gap-4 max-w-sm sm:max-w-md lg:max-w-lg mt-0.5">
         {units.map((unit, idx) => (
           <motion.div
             key={unit.key}
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.25 + idx * 0.06, ease: [0.22, 1, 0.36, 1] }}
-            whileHover={{ y: -2 }}
-            className="flex flex-col items-center justify-center py-2.5 px-2 sm:py-3.5 sm:px-3 rounded-2xl bg-white/[0.08] hover:bg-white/[0.12] backdrop-blur-md border border-white/15 hover:border-primary/50 transition-colors shadow-md group min-w-0"
+            initial={{ opacity: 0, y: 18, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.45, delay: 0.22 + idx * 0.07, ease: [0.22, 1, 0.36, 1] }}
+            whileHover={{ y: -3 }}
+            whileTap={{ scale: 0.98 }}
+            className="flex flex-col items-center justify-center py-2.5 px-2 sm:py-3.5 sm:px-3 rounded-2xl bg-white/[0.08] hover:bg-white/[0.14] backdrop-blur-md border border-white/15 hover:border-accent/60 transition-colors shadow-md group min-w-0 cursor-default"
           >
             <div
               className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white font-timer tracking-tight leading-none"

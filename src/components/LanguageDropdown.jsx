@@ -71,7 +71,7 @@ export const LanguageDropdown = () => {
                   onClick={() => handleSelectLang(item)}
                   className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium transition-all text-left cursor-pointer focus-ring ${
                     isSelected
-                      ? 'bg-primary/15 text-primary font-bold border border-primary/30 shadow-sm'
+                      ? 'bg-primary/15 text-primary font-bold border border-primary/30'
                       : 'text-content hover:bg-body border border-transparent'
                   }`}
                   role="option"

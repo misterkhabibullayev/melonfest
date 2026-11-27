@@ -28,7 +28,7 @@ export const GalleryPage = () => {
             onClick={() => setActiveTab(tab)}
             className={`px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer focus-ring ${
               activeTab === tab
-                ? 'bg-primary text-primary-foreground shadow-md shadow-primary/20'
+                ? 'bg-primary text-primary-foreground'
                 : 'bg-card border border-border text-muted hover:text-content'
             }`}
             aria-pressed={activeTab === tab}

@@ -35,7 +35,7 @@ export const Footer = () => {
     <footer className="relative w-full bg-card text-content border-t border-border mt-auto overflow-hidden">
       <GirihPattern
         id="footer-girih"
-        className="absolute -bottom-24 -right-20 w-[300px] h-[300px] text-primary/[0.06] dark:text-primary/[0.07]"
+        className="absolute -bottom-24 -right-20 w-[320px] h-[320px] opacity-[0.12] dark:opacity-[0.35]"
       />
 
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 py-12 relative z-10">

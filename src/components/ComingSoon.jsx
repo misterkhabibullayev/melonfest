@@ -7,7 +7,7 @@ export const ComingSoon = () => {
     <section className="relative flex-1 flex items-center justify-center px-4 py-24 overflow-hidden">
       <GirihPattern
         id="coming-soon-girih"
-        className="absolute w-[380px] h-[380px] text-primary/[0.07] dark:text-primary/[0.08]"
+        className="absolute w-[420px] h-[420px] opacity-[0.14] dark:opacity-[0.38]"
       />
 
       <motion.h1

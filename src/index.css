@@ -124,7 +124,6 @@ html.text-size-large {
   }
   .button-primary:hover {
     background-color: var(--accent-hover);
-    box-shadow: 0 0 20px rgb(var(--accent-rgb) / 0.35);
   }
 
   .button-secondary {
@@ -141,7 +140,6 @@ html.text-size-large {
   }
   .button-secondary:hover {
     background-color: var(--primary-hover);
-    box-shadow: 0 0 20px rgb(var(--primary-rgb) / 0.35);
   }
 }
 

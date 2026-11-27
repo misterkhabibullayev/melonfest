@@ -200,7 +200,7 @@ export const Header = () => {
                 <div className="relative" ref={userMenuRef}>
                   <button
                     onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                    className="flex items-center gap-2 py-1.5 px-3 sm:py-2 sm:px-3.5 rounded-xl bg-primary/15 hover:bg-primary/25 border border-primary/30 hover:border-primary/50 text-content transition-all focus-ring cursor-pointer shadow-sm"
+                    className="flex items-center gap-2 py-1.5 px-3 sm:py-2 sm:px-3.5 rounded-xl bg-primary/15 hover:bg-primary/25 border border-primary/30 hover:border-primary/50 text-content transition-all focus-ring cursor-pointer"
                     aria-expanded={isUserMenuOpen}
                     aria-haspopup="true"
                     title={t('ui.user_menu', 'Foydalanuvchi menyusi')}

@@ -85,7 +85,7 @@ export const HeroSection = () => {
             <motion.div whileHover={{ y: -2 }} whileTap={{ scale: 0.98 }}>
               <Link
                 to="/contents"
-                className="button-primary relative gap-2 px-6 py-2.5 text-sm sm:text-base rounded-xl hover:shadow-xl focus-ring"
+                className="button-primary relative gap-2 px-6 py-2.5 text-sm sm:text-base rounded-xl focus-ring"
                 title={t(
                   "hero.about_festival_title",
                   "Festival dasturi va ma'lumotlari bilan tanishish",
