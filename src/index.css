@@ -1,0 +1,233 @@
+@import '../assets/design-tokens.css';
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+.font-timer {
+  font-family: 'Space Mono', monospace !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.dark {
+  /* Three-layer design tokens bridge */
+  --bgcolor: var(--color-background);
+  --bgcolor-rgb: var(--color-background-rgb);
+  --surface: var(--color-surface);
+  --surface-rgb: var(--color-surface-rgb);
+  --card: var(--color-card);
+  --card-rgb: var(--color-card-rgb);
+  --primary: var(--color-primary);
+  --primary-rgb: var(--color-primary-rgb);
+  --primary-hover: var(--color-primary-hover);
+  --primary-hover-rgb: var(--color-primary-hover-rgb);
+  --primary-foreground: var(--color-primary-foreground);
+  --primary-foreground-rgb: var(--color-primary-foreground-rgb);
+  --secondary: var(--color-secondary);
+  --secondary-rgb: var(--color-secondary-rgb);
+  --secondary-foreground: var(--color-secondary-foreground);
+  --secondary-foreground-rgb: var(--color-secondary-foreground-rgb);
+  --text: var(--color-foreground);
+  --text-rgb: var(--color-foreground-rgb);
+  --text-secondary: var(--color-secondary-text);
+  --text-secondary-rgb: var(--color-secondary-text-rgb);
+  --border: var(--color-border);
+  --border-rgb: var(--color-border-rgb);
+  --accent: var(--color-accent);
+  --accent-rgb: var(--color-accent-rgb);
+  --accent-hover: var(--color-accent-hover);
+  --accent-hover-rgb: var(--color-accent-hover-rgb);
+  --accent-foreground: var(--color-accent-foreground);
+  --accent-foreground-rgb: var(--color-accent-foreground-rgb);
+  --urgent: var(--color-urgent);
+  --urgent-rgb: var(--color-urgent-rgb);
+  --urgent-foreground: var(--color-urgent-foreground);
+  --urgent-foreground-rgb: var(--color-urgent-foreground-rgb);
+  --nav-bg: var(--color-nav-bg);
+
+  --navHeight: calc(var(--primitive-spacing-16) + var(--primitive-spacing-10)); /* 6.5rem ~ 104-110px standard header */
+  --sectionHeight: calc(100vh - var(--navHeight));
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--bgcolor);
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    transition: background-color var(--primitive-duration-normal) ease, color var(--primitive-duration-normal) ease;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom Accessibility Text Sizes using primitive fontSize tokens */
+html.text-size-small {
+  font-size: var(--primitive-fontSize-sm);
+}
+html.text-size-normal {
+  font-size: var(--primitive-fontSize-base);
+}
+html.text-size-large {
+  font-size: var(--primitive-fontSize-lg);
+}
+
+@layer components {
+  /* Standard Components with Design Tokens */
+  .surface-panel {
+    background-color: var(--surface);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--primitive-radius-lg);
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+    transition: transform var(--primitive-duration-normal) ease, border-color var(--primitive-duration-normal) ease, box-shadow var(--primitive-duration-normal) ease;
+  }
+
+  .button-primary {
+    background-color: var(--accent);
+    color: var(--accent-foreground);
+    font-weight: 700;
+    border-radius: var(--primitive-radius-md);
+    padding: var(--primitive-spacing-2) var(--primitive-spacing-5);
+    transition: all var(--primitive-duration-fast) ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-primary:hover {
+    background-color: var(--accent-hover);
+    box-shadow: 0 0 20px rgb(var(--accent-rgb) / 0.35);
+  }
+
+  .button-secondary {
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+    font-weight: 700;
+    border-radius: var(--primitive-radius-md);
+    padding: var(--primitive-spacing-2) var(--primitive-spacing-5);
+    transition: all var(--primitive-duration-fast) ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-secondary:hover {
+    background-color: var(--primary-hover);
+    box-shadow: 0 0 20px rgb(var(--primary-rgb) / 0.35);
+  }
+}
+
+@layer utilities {
+  .bg-surface {
+    background-color: rgb(var(--surface-rgb) / 1);
+  }
+  .bg-surface\/40 {
+    background-color: rgb(var(--surface-rgb) / 0.4);
+  }
+  .bg-accent {
+    background-color: rgb(var(--accent-rgb) / 1);
+  }
+  .bg-accent\/10 {
+    background-color: rgb(var(--accent-rgb) / 0.1);
+  }
+  .bg-accent\/15 {
+    background-color: rgb(var(--accent-rgb) / 0.15);
+  }
+  .hover\:bg-accent-hover:hover {
+    background-color: rgb(var(--accent-hover-rgb) / 1);
+  }
+  .text-accent {
+    color: rgb(var(--accent-rgb) / 1);
+  }
+  .text-accent-foreground {
+    color: rgb(var(--accent-foreground-rgb) / 1);
+  }
+  .text-muted {
+    color: rgb(var(--text-secondary-rgb) / 1);
+  }
+  .text-urgent {
+    color: rgb(var(--urgent-rgb) / 1);
+  }
+  .text-urgent-foreground {
+    color: rgb(var(--urgent-foreground-rgb) / 1);
+  }
+  .hover\:bg-urgent\/10:hover {
+    background-color: rgb(var(--urgent-rgb) / 0.1);
+  }
+  .border-urgent\/40 {
+    border-color: rgb(var(--urgent-rgb) / 0.4);
+  }
+  .text-primary-foreground {
+    color: rgb(var(--primary-foreground-rgb) / 1);
+  }
+  .hover\:bg-primary-hover:hover {
+    background-color: rgb(var(--primary-hover-rgb) / 1);
+  }
+  .hover\:text-primary-hover:hover {
+    color: rgb(var(--primary-hover-rgb) / 1);
+  }
+  .bg-primary\/10 {
+    background-color: rgb(var(--primary-rgb) / 0.1);
+  }
+  .bg-primary\/15 {
+    background-color: rgb(var(--primary-rgb) / 0.15);
+  }
+  .bg-primary\/20 {
+    background-color: rgb(var(--primary-rgb) / 0.2);
+  }
+  .hover\:bg-primary\/10:hover {
+    background-color: rgb(var(--primary-rgb) / 0.1);
+  }
+  .hover\:bg-primary\/25:hover {
+    background-color: rgb(var(--primary-rgb) / 0.25);
+  }
+}
+
+/* Accessible focus ring - standard CSS without Tailwind @apply variant limitations */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--border-rgb) / 0.35);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary-rgb) / 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary-rgb) / 0.75);
+}

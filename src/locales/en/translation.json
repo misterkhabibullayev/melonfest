@@ -1,0 +1,506 @@
+{
+  "navlinks": {
+    "home": "Home",
+    "about": "About Us",
+    "news": "News",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "content": "Contents",
+    "nomination": "Nomination"
+  },
+  "main": {
+    "festival": "Festival",
+    "title": "Khiva Melon Festival - A Celebration of Traditions and Sweet Flavors!",
+    "description": "Welcome to the paradise of Khiva melons! The annual Melon Festival held in ancient Khiva is a unique event showcasing delicious melons, national culture and hospitality!"
+  },
+  "about": {
+    "info1": "The annual Melon Festival held in the courtyard of Ichan Kala in ancient Khiva is not just an exhibition of sweet melons, but also a vivid expression of national traditions, hospitality and agricultural culture refined over centuries.",
+    "info2": "The festival expands year by year, uniting thousands of guests not only from various regions of Uzbekistan but also from abroad. Here, rare varieties of the most delicious melons are presented, and every guest gets the chance to taste their unique flavor. Additionally, the festival features various entertainment programs, folk games, concerts and bazaars based on national traditions.",
+    "info3": "The Melon Festival is not just a festival but a unique opportunity to experience the hospitality of ancient Khiva, its rich culture and priceless agricultural heritage. Every year we strive to celebrate this festival on an even grander scale and invite you to this magnificent celebration!"
+  },
+  "section": {
+    "melons_types": "Melon Varieties",
+    "melons_subtitle": "Famous sweet melon varieties such as Gurvak, Obi Novvot, Kokcha, and Shakarpalak cultivated in ancient Khorezm",
+    "melons_badge": "Selected National Heritage • Khorezm Melon Culture",
+    "all_varieties": "All",
+    "popular": "Popular Varieties",
+    "summer": "Summer Sweet",
+    "autumn": "Autumn & Storage",
+    "sweetness": "Sweetness",
+    "weight": "Weight",
+    "season": "Harvest Season",
+    "quick_view": "Quick View",
+    "close": "Close",
+    "festival_stats": "Festival Statistics",
+    "festival_videos": "Festival Footage",
+    "useful_links": "Useful Links"
+  },
+  "stat": {
+    "participants": "Participants",
+    "melon_varieties": "Melon Varieties",
+    "visitors": "Visitors",
+    "sold_products": "Products Sold"
+  },
+  "social": {
+    "banner_text": "Unforgettable moments, delicious food and amazing views!",
+    "subscribers": "subscribers",
+    "posts": "posts",
+    "cta_primary": "Join now - adventure awaits!",
+    "cta_secondary": "Join Us"
+  },
+  "footer": {
+    "all_rights_reserved": "All Rights Reserved",
+    "developed_by": "Developed by",
+    "scroll_to_top": "Scroll to top",
+    "back_to_top": "Back to top"
+  },
+  "contact": {
+    "title": "Contact Us"
+  },
+  "not_found": {
+    "title": "Page Not Found!",
+    "description": "Unfortunately, the page you are looking for was not found. The Melon Festival continues, please check other pages!",
+    "refresh": "Refresh Page",
+    "homepage": "To Homepage"
+  },
+  "ui": {
+    "loading": "Loading...",
+    "theme_select": "Select Theme",
+    "grayscale": "Grayscale Mode",
+    "font_size": "Font Size",
+    "become_sponsor": "Become a Sponsor",
+    "latest_news": "Latest News",
+    "all_news": "All News",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone Number",
+    "full_name": "Full Name",
+    "phone_number": "Phone Number",
+    "message": "Message Text",
+    "send": "Send",
+    "profile": "Profile",
+    "my_tickets": "My Tickets",
+    "logout": "Logout",
+    "page_not_found": "Page Not Found!",
+    "view_all": "View All",
+    "prev": "Previous",
+    "next": "Next",
+    "test_mode": "The site is running in test mode",
+    "password": "Password",
+    "login": "Login",
+    "sign_up": "Sign Up",
+    "already_have_account": "Do you already have an account?",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "sign_up_title": "Create Account",
+    "not_logged_in": "Not Logged In",
+    "login_title": "Login to Account",
+    "date": "Date",
+    "time": "Time",
+    "seat_number": "Seat Number",
+    "forgot_password": "Forgot Password?",
+    "or": "or",
+    "send_link": "Send Link",
+    "link_sent_title": "Link Sent",
+    "link_sent_desc": "A password reset link has been sent to your email. Please check your inbox.",
+    "back_to_login": "Back to Login",
+    "send_link_desc": "Fill in your email below to receive a password reset link.",
+    "not_registered": "Haven't registered yet?",
+    "scene": "Scene",
+    "token_invalid_or_expired": "Token invalid or expired",
+    "token_invalid_or_expired_desc": "The link sent to you is invalid or has expired. Please register again.",
+    "try_again": "Try Again",
+    "update_password": "Update Password",
+    "tickets_count": "Number of Tickets",
+    "price": "Price",
+    "paid": "Paid",
+    "purchase": "Purchase",
+    "not_left": "None Left",
+    "tickets": "Tickets",
+    "email_verified": "Your email has been verified",
+    "success_message": "Registration for participation in the Melon Festival has been successfully completed. Thank you for your visit!",
+    "not_verified": "Not Verified",
+    "verification_error": "An error occurred while verifying the email address. This may be due to the following reasons:",
+    "error_reasons": [
+      "Verification link is invalid or expired",
+      "This email has already been verified",
+      "Account has been deleted or doesn't exist"
+    ],
+    "register_again": "Register Again",
+    "invitation": "Invitation",
+    "make_payment": "Make Payment",
+    "payment": "Payment",
+    "select_payment_method": "Select Payment Method",
+    "pay_with": "Pay with {{payment}}",
+    "pay": "Pay",
+    "unpaid": "Unpaid",
+    "add_number": "Add Number",
+    "security": "Security",
+    "old_password": "Old Password",
+    "new_password": "New Password",
+    "repeat_new_password": "Repeat New Password",
+    "change_password": "Change Password",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "father_name": "Father's Name",
+    "verify_phone": "Verify Phone Number",
+    "send_by_sms_code": "We'll send verification code via SMS",
+    "enter_code": "Enter Code",
+    "sent_code_to_phone": "A 6-digit code has been sent to {{phone}} for verification",
+    "verification_code": "Verification Code",
+    "verify": "Verify",
+    "title": "Title",
+    "company": "Company",
+    "position": "Position",
+    "city": "City",
+    "country": "Country",
+    "mobile_or_wa": "Mobile/WA",
+    "company_website": "Company Corporate Website",
+    "send_sms_code": "Send SMS Code",
+    "card_number": "Card Number",
+    "card_expiry": "Expiration Date",
+    "back_to_news": "Back to News",
+    "saved": "Saved",
+    "share": "Share",
+    "photo_gallery": "Photo Gallery",
+    "comments": "Comments",
+    "view_all_comments": "View All Comments",
+    "leave_comment": "Leave a Comment",
+    "write_your_opinion": "Write Your Opinion",
+    "popular_tags": "Popular Tags",
+    "photo_of_the_week": "Photo of the Week",
+    "hours_ago": "{{hour}} hours ago",
+    "booking": "Booking",
+    "accessibility": "Accessibility options",
+    "user_menu": "User menu",
+    "open_menu": "Open mobile menu",
+    "close_menu": "Close menu",
+    "home_link": "Melon Festival homepage",
+    "change_language": "Change language",
+    "toggle_theme": "Toggle theme",
+    "font_size_small": "Small font size",
+    "font_size_normal": "Normal font size",
+    "font_size_large": "Large font size",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "tickets_purchase": "Buy tickets"
+  },
+  "alerts": {
+    "error_general": "Something went wrong!",
+    "login_success": "You have successfully logged in",
+    "message_sent": "Your message has been delivered",
+    "ticket_purchased": "Ticket purchased",
+    "tickets_limited": "Tickets are running out",
+    "tickets_sold_out": "Tickets sold out"
+  },
+  "sponsor": {
+    "title": "Melon Festival Sponsorship Rules",
+    "description": "A unique opportunity for your company - develop your branding and get closer to your target audience through festival sponsorship.",
+    "benefits": {
+      "title": "Sponsorship Benefits",
+      "list": [
+        "Direct appeal to target audience",
+        "Opportunity to outperform competitors",
+        "Increased brand recognition"
+      ]
+    },
+    "categories": {
+      "title": "Sponsorship Categories",
+      "platinum": {
+        "title": "Platinum Sponsorship",
+        "items": [
+          "Main Sponsor",
+          "General Sponsorship"
+        ]
+      },
+      "gold": {
+        "title": "Gold Sponsorship",
+        "items": [
+          "Official Bank",
+          "Official Automobile",
+          "Partner State",
+          "Communication Partner"
+        ]
+      },
+      "silver": {
+        "title": "Silver Sponsorship",
+        "items": [
+          "Official Beverage",
+          "Evening Reception Sponsor",
+          "Business Zone Sponsor",
+          "Charging Station Sponsor"
+        ]
+      }
+    },
+    "opportunity": {
+      "title": "Sponsorship Opportunities",
+      "description": "Each sponsorship package is customized to your company's goals and needs to ensure maximum efficiency.",
+      "note": "Note: Additional sponsorship agreements can also be implemented."
+    }
+  },
+  "nominations": {
+    "title": "\"Melon Festival-2025\"",
+    "subtitle": "Supreme nominations of the International Festival",
+    "tabs": {
+      "nominations": "Nominations",
+      "sertification": "Certificates",
+      "info": "Information"
+    },
+    "introduction": {
+      "part1": "The highest nominations for the finest melons at our festival. Special car prizes await the winners!"
+    },
+    "card_title": {
+      "gold": "Golden Nomination",
+      "silver": "Silver Nomination",
+      "bronze": "Bronze Nomination"
+    },
+    "card_desc": {
+      "gold": "The highest award and a car prize for the best melon growers.",
+      "silver": "For innovative approaches and high achievements in melon farming.",
+      "bronze": "For participants who achieved the best results using traditional methods."
+    },
+    "info": {
+      "title": "About the Festival",
+      "desc1": "\"Melon Festival\" is one of the most important agricultural events held annually in Uzbekistan. During the festival, the finest melon varieties grown across the country are showcased and awarded.",
+      "festival_info_title": "Festival Information:",
+      "location": "Location: Central City Park, Tashkent",
+      "date": "Date: August 15-18, 2025",
+      "participants": "Participants: 200+ farming households from all regions of Uzbekistan",
+      "prize": "Prize Fund: Total value of 300+ million soums",
+      "desc2": "The festival features melon tastings, masterclasses, a national food fair, and cultural programs. Guests will have the opportunity to explore Uzbekistan's rich melon-growing traditions.",
+      "history_title": "History of Melon Cultivation:",
+      "history_desc": "Melon cultivation in Uzbekistan dates back over 3000 years. Today, there are more than 160 melon varieties in the country, each with a unique taste, aroma, and appearance."
+    },
+    "nominations_desc": {
+      "gran_pri": "The highest award of the Melon Festival International Festival - for the festival winner",
+      "first": "For the participant who scored the highest points and was selected by the jury",
+      "second": "For the participant who stood out and was selected by the jury",
+      "third": "For the participant who achieved unique accomplishments"
+    },
+    "nominations_date": {
+      "gran_pri": "August 18",
+      "first": "August 17",
+      "second": "August 17",
+      "third": "August 17"
+    },
+    "nominations_location": {
+      "gran_pri": "Central Square",
+      "first": "Amphitheater",
+      "second": "Amphitheater",
+      "third": "Amphitheater"
+    },
+    "prizes": {
+      "tracker": "Tracker",
+      "onix": "Onix",
+      "gentra": "Gentra",
+      "damas": "Damas"
+    },
+    "titles": {
+      "gran_pri": "Grand Prix",
+      "first": "1st place",
+      "second": "2nd place",
+      "third": "3rd place"
+    }
+  },
+  "contents": {
+    "title": "Khiva Melon Festival",
+    "subtitle": "Contents",
+    "menuItems": {
+      "1": {
+        "title": "Festival venue and entrance",
+        "shortDesc": "Information about the festival venue and entrance procedure",
+        "detailedInfo": {
+          "description": "The festival is held in the ancient city of Khiva, in the Arda Khiva area. Entrance is free and open to all guests.",
+          "details": [
+            "Address: Khiva city, Arda Khiva",
+            "Entrance: Free",
+            "Working hours: 10:00 – 22:00",
+            "Safety and comfort are provided by the organizers"
+          ],
+          "note": ""
+        }
+      },
+      "2": {
+        "title": "Festival program",
+        "shortDesc": "Main events held during the festival",
+        "detailedInfo": {
+          "description": "The festival features an opening ceremony, melon exhibition, competitions, and cultural programs.",
+          "details": [
+            "Opening ceremony",
+            "Melon exhibition",
+            "Competitions and contests",
+            "Cultural programs and concerts"
+          ],
+          "note": ""
+        }
+      },
+      "3": {
+        "title": "Organizers and partners",
+        "shortDesc": "Information about the festival organizers and partners",
+        "detailedInfo": {
+          "description": "The festival is organized by the Ministry of Agriculture of the Republic of Uzbekistan and local authorities.",
+          "details": [
+            "Organizers: Ministry of Agriculture, Khiva city administration",
+            "Partners: Various organizations and companies"
+          ],
+          "note": ""
+        }
+      },
+      "4": {
+        "title": "International participants",
+        "shortDesc": "Foreign guests and delegations participating in the festival",
+        "detailedInfo": {
+          "description": "Foreign guests and delegations also participate in the festival.",
+          "details": [
+            "Delegations from different countries",
+            "International cooperation and experience exchange"
+          ],
+          "note": ""
+        }
+      },
+      "5": {
+        "title": "Participants and guests",
+        "shortDesc": "Farmers, artisans, and guests participating in the festival",
+        "detailedInfo": {
+          "description": "Farmers, artisans, and artists from all regions of Uzbekistan participate in the festival.",
+          "note": {
+            "text": "More than 200 farms and hundreds of guests participate in the festival."
+          }
+        }
+      },
+      "6": {
+        "title": "Nominations and prizes",
+        "shortDesc": "Competitions and awards within the festival",
+        "detailedInfo": {
+          "description": "Special nominations and prizes are awarded to the best melon growers.",
+          "note": ""
+        }
+      },
+      "7": {
+        "title": "Cultural program",
+        "shortDesc": "Cultural events held during the festival",
+        "detailedInfo": {
+          "description": "National folklore ensembles, pop stars, and dance groups participate in the festival.",
+          "details": [
+            "Folklore ensembles",
+            "Pop stars",
+            "Dance and games"
+          ]
+        }
+      },
+      "8": {
+        "title": "Artists' participation",
+        "shortDesc": "Famous artists and their performances",
+        "detailedInfo": {
+          "description": "Famous artists participate in the festival and present their performances.",
+          "note": {
+            "artist1": {
+              "name": "Yulduz Usmonova",
+              "date": "August 16"
+            }
+          }
+        }
+      },
+      "9": {
+        "title": "National costumes and handicrafts",
+        "shortDesc": "Exhibition of national costumes and handicrafts",
+        "detailedInfo": {
+          "description": "An exhibition of national costumes and handicraft products is also held at the festival.",
+          "note": {
+            "text": "Artisans present and sell their products."
+          }
+        }
+      }
+    },
+    "sections": {
+      "general": {
+        "title": "General information"
+      },
+      "program": {
+        "title": "Festival program"
+      },
+      "participants": {
+        "title": "Participants"
+      },
+      "melons": {
+        "title": "Melon exhibition"
+      },
+      "competitions": {
+        "title": "Competitions"
+      },
+      "culture": {
+        "title": "Cultural program"
+      }
+    },
+    "additional_info": {
+      "title": "Main information",
+      "items": {
+        "date": "Date:",
+        "time": "Time:",
+        "location": "Location:",
+        "visitors": "Number of visitors:",
+        "prize": "Main prize:"
+      },
+      "values": {
+        "date": "August 15-20, 2025",
+        "time": "10:00 - 22:00",
+        "location": "Khiva city, Arda Khiva",
+        "visitors": "Expected 5000+ guests",
+        "prize": "Chevrolet Tracker"
+      }
+    },
+    "contacts": {
+      "title": "Contact information",
+      "items": [
+        {
+          "title": "Festival director:",
+          "content": "Abdurahmonov Bahrom, +998 90 123 45 67"
+        },
+        {
+          "title": "Press secretary:",
+          "content": "Karimova Dilnoza, +998 90 234 56 78"
+        },
+        {
+          "title": "Participants department:",
+          "content": "+998 90 345 67 89"
+        }
+      ]
+    },
+    "additional_elements": {
+      "title": "Additional elements",
+      "items": [
+        "National food festival",
+        "Folklore nights",
+        "Handicraft market",
+        "Melon export forum",
+        "Photo exhibition",
+        "Melon carving competition",
+        "Youth program",
+        "Virtual tour"
+      ]
+    }
+  },
+  "arda_khiva_location": "Arda Khiva location",
+  "header": {
+    "call_phone": "Call by phone",
+    "send_email": "Send an email",
+    "open_map": "Open in Google Maps",
+    "khiva_360_title": "360° virtual tour of Khiva"
+  },
+  "hero": {
+    "badge": "Festival 2026 • Khiva",
+    "bg_alt": "Melon Festival and Khiva Ichan Qala panorama",
+    "buy_tickets_title": "Go to festival ticket purchase page",
+    "about_us_title": "Learn more about the festival and organizers",
+    "about_festival": "About Festival",
+    "about_festival_title": "Explore festival schedule and details",
+    "about_us": "About Us",
+    "badge_dynamic": "August 7-8-9, Khiva{{year}}",
+    "countdown_title": "Festival begins",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  }
+}

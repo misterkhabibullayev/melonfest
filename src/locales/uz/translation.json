@@ -1,0 +1,494 @@
+{
+  "navlinks": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "news": "Yangiliklar",
+    "gallery": "Galereya",
+    "contact": "Bog'lanish",
+    "content": "Mundarija",
+    "nomination": "Nominatsiya"
+  },
+  "main": {
+    "festival": "Festivali",
+    "title": "Xiva qovun sayli – an’analar va shirin ta’mlar bayrami!",
+    "description": "Xiva qovunlar jannatiga xush kelibsiz! Har yili qadimiy Xivada o‘tkaziladigan Qovun Sayli – bu mazali qovunlar, milliy madaniyat va mehmondo‘stlikni aks ettiruvchi betakror festival!"
+  },
+  "about": {
+    "info1": "Har yili qadimiy Xiva shahrining Ichan qal’asi bag‘rida o‘tkaziladigan Qovun Sayli – bu nafaqat shirin qovunlarning ko‘rgazmasi, balki asrlar davomida sayqal topgan milliy an’analar, mehmondo‘stlik va dehqonchilik madaniyatining yorqin ifodasidir.",
+    "info2": "Festival yildan yilga kengayib, nafaqat O‘zbekistonning turli hududlaridan, balki chet ellardan ham minglab mehmonlarni birlashtirmoqda. Bu yerda eng mazali qovunlarning nodir navlari taqdim etilib, har bir mehmon ularning betakror ta’mini tatib ko‘rish imkoniyatiga ega bo‘ladi. Shuningdek, festival doirasida milliy an’analarga asoslangan turli ko‘ngilochar dasturlar, xalq o‘yinlari, konsertlar va bozorlar tashkil etiladi.",
+    "info3": "Qovun Sayli – bu shunchaki festival emas, balki qadimiy Xivaning mehmondo‘stligini, uning boy madaniyatini va bebaho dehqonchilik merosini his qilish uchun noyob imkoniyatdir. Har yili biz bu festivalni yanada kengroq nishonlashga harakat qilamiz va sizni ham shu ulkan bayramga taklif qilamiz!"
+  },
+  "section": {
+    "melons_types": "Qovun navlari",
+    "melons_subtitle": "Qadimiy Xorazm zaminida yetishtiriladigan Gurvak, Obi novvot, Ko'kcha, Shakarpalak kabi mashhur va shirin qovun navlari",
+    "melons_badge": "Saralangan milliy meros • Xorazm polizchiligi",
+    "all_varieties": "Barchasi",
+    "popular": "Mashhur navlar",
+    "summer": "Yozgi asal navlar",
+    "autumn": "Kuzgi va saqlanuvchi",
+    "sweetness": "Shirinligi",
+    "weight": "Vazni",
+    "season": "Pishish davri",
+    "quick_view": "Tezkor ko'rish",
+    "close": "Yopish",
+    "festival_stats": "Festival statistikalari",
+    "festival_videos": "Festivaldan lavhalar",
+    "useful_links": "Foydali havolalar"
+  },
+  "stat": {
+    "participants": "Qatnashchilar",
+    "melon_varieties": "Qovun navlari",
+    "visitors": "Tashrif buyuruvchilar",
+    "sold_products": "Sotilgan mahsulotlar"
+  },
+  "social": {
+    "banner_text": "Unutilmas lahzalar, lazzatli taomlar va ajoyib manzaralar!",
+    "subscribers": "obunachi",
+    "posts": "post",
+    "cta_primary": "Hoziroq qo'shiling - sarguzasht sizni kutmoqda!",
+    "cta_secondary": "Bizga qo'shiling"
+  },
+  "footer": {
+    "all_rights_reserved": "Barcha huquqlar himoyalangan",
+    "developed_by": "Ishlab chiqilgan",
+    "scroll_to_top": "Sahifa tepasiga qaytish",
+    "back_to_top": "Tepaga qaytish"
+  },
+  "contact": {
+    "title": "Biz bilan bog'lanish"
+  },
+  "not_found": {
+    "title": "Sahifa topilmadi!",
+    "description": "Afsuski, siz qidirayotgan sahifa topilmadi. Qovun sayli festivali davom etmoqda, boshqa sahifalarni ko'rib chiqing!",
+    "refresh": "Sahifani yangilash",
+    "homepage": "Bosh sahifaga"
+  },
+  "ui": {
+    "loading": "Yuklanmoqda...",
+    "theme_select": "Mavzuni tanlang",
+    "grayscale": "Oq-qora rejim",
+    "font_size": "Yozuv o'lchami",
+    "become_sponsor": "Homiy bo'lish",
+    "latest_news": "Oxirgi yangiliklar",
+    "all_news": "Barcha yangiliklar",
+    "address": "Manzil",
+    "email": "Elektron pochta",
+    "phone": "Telefon raqam",
+    "full_name": "F.I.Sh.",
+    "phone_number": "Telefon raqami",
+    "message": "Xabar matni",
+    "send": "Yuborish",
+    "profile": "Profil",
+    "my_tickets": "Chiptalarim",
+    "logout": "Chiqish",
+    "page_not_found": "Sahifa topilmadi!",
+    "view_all": "Hammasini ko'rish",
+    "prev": "Oldingisi",
+    "next": "Keyingisi",
+    "test_mode": "Sayt test rejimida ishlamoqda",
+    "password": "Parol",
+    "login": "Kirish",
+    "sign_up": "Ro'yxatdan o'tish",
+    "already_have_account": "Sizning allaqachon akkountingiz bormi?",
+    "first_name": "Ism",
+    "last_name": "Familiya",
+    "sign_up_title": "Hisob yaratish",
+    "not_logged_in": "Hisobga kirilmagan",
+    "login_title": "Hisobga kirish",
+    "date": "Sanasi",
+    "time": "Vaqti",
+    "seat_number": "O'rindiq raqami",
+    "forgot_password": "Parolni unutdingizmi?",
+    "or": "yoki",
+    "send_link": "Havolani yuborish",
+    "link_sent_title": "Havola yuborildi",
+    "link_sent_desc": "Parolni tiklash havolasi sizning elektron pochtangizga yuborildi. Iltimos, pochtangizni tekshiring.",
+    "back_to_login": "Kirishga qaytish",
+    "send_link_desc": "Parolni tiklash havolasini yuborish uchun quyidagi maydonga emailingizni to'ldiring.",
+    "not_registered": "Sizning hali ro'yxatdan o'tmaganmisiz?",
+    "scene": "Sahna",
+    "token_invalid_or_expired": "Token yaroqsiz yoki muddati tugagan",
+    "token_invalid_or_expired_desc": "Sizga yuborilgan link yaroqsiz yoki muddati tugagan. Iltimos, qayta ro'yxatdan o'ting.",
+    "try_again": "Qaytadan urinish",
+    "update_password": "Parolni yangilash",
+    "tickets_count": "Chiptalar soni",
+    "price": "Narxi",
+    "paid": "To'landi",
+    "purchase": "Sotib olish",
+    "not_left": "Qolmadi",
+    "tickets": "Chiptalar",
+    "email_verified": "Elektron pochtangiz tasdiqlandi",
+    "success_message": "Qovun Sayli festivalida ishtirok etish uchun ro'yxatdan o'tish muvaffaqiyatli yakunlandi. Tashrifingiz uchun rahmat!",
+    "not_verified": "Tasdiqlanmadi",
+    "verification_error": "Email manzilini tasdiqlashda xatolik yuz berdi. Bu quyidagi sabablarga ko'ra bo'lishi mumkin:",
+    "error_reasons": [
+      "Tasdiqlash havolasi yaroqsiz yoki muddati tugagan",
+      "Bu email allaqachon tasdiqlangan",
+      "Hisob o'chirilgan yoki mavjud emas"
+    ],
+    "register_again": "Qaytadan ro'yxatdan o'tish",
+    "invitation": "Taklifnoma",
+    "make_payment": "To'lov qilish",
+    "payment": "To'lov",
+    "select_payment_method": "To'lov usulini tanlang",
+    "pay_with": "{{payment}} orqali to'lash",
+    "pay": "To'lash",
+    "unpaid": "To'lanmagan",
+    "add_number": "Raqam qo'shish",
+    "security": "Xavfsizlik",
+    "old_password": "Eski parol",
+    "new_password": "Yangi parol",
+    "repeat_new_password": "Yangi parolni takrorlang",
+    "change_password": "Parolni o’zgartirish",
+    "edit": "Tahrirlash",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "father_name": "Otasining ismi",
+    "verify_phone": "Telefon raqamni tasdiqlash",
+    "send_by_sms_code": "Tasdiqlash kodini SMS orqali yuboramiz",
+    "enter_code": "Kodni kiriting",
+    "sent_code_to_phone": "Telefonni tasdiqlash uchun {{phone}} raqamiga 6 xonali kod yuborildi",
+    "verification_code": "Tasdiqlash kodi",
+    "verify": "Tasdiqlash",
+    "title": "Sarlavha",
+    "company": "Kompaniya",
+    "position": "Lavozimi",
+    "city": "Shahar",
+    "country": "Mamlakat",
+    "mobile_or_wa": "Mobil / WA",
+    "company_website": "Kompaniyaning korporativ veb-sayti",
+    "send_sms_code": "SMS kod yuborish",
+    "card_number": "Karta raqami",
+    "card_expiry": "Amal qilish muddati",
+    "back_to_news": "Yangiliklarga qaytish",
+    "saved": "Saqlangan",
+    "share": "Ulashish",
+    "photo_gallery": "Fotogalereya",
+    "comments": "Izohlar",
+    "view_all_comments": "Barcha izohlarni ko'rish",
+    "leave_comment": "Izoh qoldirish",
+    "write_your_opinion": "Fikringizni yozing",
+    "popular_tags": "Ommabop teglar",
+    "photo_of_the_week": "Hafta fotosi",
+    "hours_ago": "{{hour}} soat oldin",
+    "booking": "Band qilish",
+    "accessibility": "Maxsus imkoniyatlar",
+    "user_menu": "Foydalanuvchi menyusi",
+    "open_menu": "Mobil menyuni ochish",
+    "close_menu": "Menyuni yopish",
+    "home_link": "Qovun sayli bosh sahifasi",
+    "change_language": "Tilni tanlash",
+    "toggle_theme": "Mavzuni almashtirish",
+    "font_size_small": "Kichik yozuv o'lchami",
+    "font_size_normal": "O'rta yozuv o'lchami",
+    "font_size_large": "Katta yozuv o'lchami",
+    "theme_light": "Kunduzgi",
+    "theme_dark": "Tungi",
+    "tickets_purchase": "Chiptalar xaridi"
+  },
+  "alerts": {
+    "error_general": "Nimadir xato ketdi!",
+    "login_success": "Hisobingizga muvaffaqiyatli kirdingiz",
+    "message_sent": "Xabaringiz yetkazildi",
+    "ticket_purchased": "Chipta sotib olindi",
+    "tickets_limited": "Chiptalar yetmaydi",
+    "tickets_sold_out": "Chiptalar tugadi"
+  },
+  "sponsor": {
+    "title": "Qovun Sayli Festivaliga sponsorlik qoidalari",
+    "description": "Sizning kompaniyangiz uchun uniq imkoniyat - festival sponsorligi orqali brendingizni rivojlantiring va maqsadli auditoriyaga yaqinlashing.",
+    "benefits": {
+      "title": "Sponsorlik afzalliklari",
+      "list": [
+        "Maqsadli auditoriyaga to'g'ridan-to'g'ri murojaat",
+        "Raqobatdan ustun bo'lish imkoniyati",
+        "Brend taniqligini oshirish"
+      ]
+    },
+    "categories": {
+      "title": "Sponsorlik soifalari",
+      "platinum": {
+        "title": "Platinum sponsorlik",
+        "items": [
+          "Bosh sponsor",
+          "Umumiy sponsorlik"
+        ]
+      },
+      "gold": {
+        "title": "Gold sponsorlik",
+        "items": [
+          "Rasmiy bank",
+          "Rasmiy avtomobil",
+          "Hamkor davlat",
+          "Aloqa hamkori"
+        ]
+      },
+      "silver": {
+        "title": "Silver sponsorlik",
+        "items": [
+          "Rasmiy ichimlik",
+          "Kechki qabul sponsori",
+          "Biznes zonasi sponsori",
+          "Zaryadlash stansiyasi sponsori"
+        ]
+      }
+    },
+    "opportunity": {
+      "title": "Sponsorlik imkoniyatlari",
+      "description": "Har bir sponsorlik paketi sizning kompaniya maqsadlaringiz va ehtiyojlaringizga moslashtirilgan bo'lib, maksimal darajada samaradorlikni ta'minlaydi.",
+      "note": "Eslatma: Sponsorlik bo'yicha qo'shimcha kelishmalar ham amalga oshirilishi mumkin."
+    }
+  },
+  "nominations": {
+    "title": "\"Qovun Sayli-2025\"",
+    "subtitle": "Xalqaro festivali oliy nominatsiyalari",
+    "tabs": {
+      "nominations": "Nominatsiyalar",
+      "sertification": "Sertifikatlar",
+      "info": "Ma'lumot"
+    },
+    "introduction": {
+      "part1": "Festivalimizdagi eng sara qovunlar uchun mo'ljallangan oliy nominatsiyalar. G'oliblar uchun maxsus avtomobil sovrinlari bilan!"
+    },
+    "card_title": {
+      "gold": "Oltin nominatsiya",
+      "silver": "Kumush nominatsiya",
+      "bronze": "Bronza nominatsiya"
+    },
+    "card_desc": {
+      "gold": "Eng yaxshi qovun yetishtiruvchilar uchun oliy mukofot va avtomobil sovrini.",
+      "silver": "Qovunchilikda innovatsion yondashuv va yuqori natijalar uchun.",
+      "bronze": "An'anaviy usullarda eng yaxshi natija ko'rsatgan ishtirokchilar uchun."
+    },
+    "info": {
+      "title": "Festival haqida",
+      "desc1": "Mazkur konsepsiyaning asosiy maqsadi O‘zbekiston Respublikasi Prezidentining 2023 yil 26 apreldagi “Respublikaning turizm salohiyatini jadal rivojlantirish hamda mahalliy va xorijiy turistlar sonini yanada oshirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida”gi PQ-135-sonli qarori hamda Vazirlar Mahkamasining “2021-2022 yillarda Xorazm viloyatining turizm salohiyatini yanada rivojlantirish chora-tadbirlari to‘g‘risida” 2021 yil 14 iyundagi 369-son qarorida belgilangan vazifalarning ijrosini ta’minlash hamda mamlakatimizning turizm salohiyatini namoyish etish maqsadida xalqaro “Qovun sayli” festivalini yuqori saviyada tashkil etishdan iborat.",
+      "festival_info_title": "Festival haqida ma'lumotlar:",
+      "location": "Manzil: Xiva shahar, Arda Xiva majmuasi",
+      "date": "Sana: 7-9 Avgust, 2026",
+      "participants": "Ishtirokchilar: O'zbekistonning barcha viloyatlaridan 200+ fermer xo'jaliklari",
+      "prize": "Mukofot jamg'armasi: Umumiy qiymati 300+ million so'm",
+      "desc2": "“Qovun sayli” festivali 2026 yil 7 – 9 avgust kunlari Xiva shahridagi “Arda Xiva” turistik majmuasi hududida hamda “Ichan qal’a” majmuasining “Polvon darvozasi”dan “Alleya maydoni”ga tutash hududda o‘tkaziladi. Festival doirasida viloyatdagi shaharlar va tumanlar hokimliklari pavilonlari tashkil qilinib, o‘z hududlarida yetishtirilgan qovun mahsulotlari, meva-sabzavotlar, poliz ekinlari hamda hunarmandchilik mahsulotlari bilan ishtirok etadilar.",
+      "history_title": "Qovunchilik tarixi:",
+      "history_desc": "O'zbekiston hududida qovun etishtirish an'anasi 3000 yildan ortiq tarixga ega. Bugungi kunda mamlakatda 160 dan ortiq qovun navlari mavjud bo'lib, ularning har biri o'ziga xos ta'm, hid va tashqi ko'rinishga ega."
+    },
+    "nominations_desc": {
+      "gran_pri": "Qovun sayli xalqaro festivalidagi eng oliy mukofot - festival g'olibiga",
+      "first": "Festival davomida eng yuqori ball to'plagan va hakamlar hay'ati tomonidan tanlangan ishtirokchi uchun",
+      "second": "Festival davomida ajralib turgan va hakamlar hay'ati tomonidan tanlab olingan ishtirokchi uchun",
+      "third": "Festival davomida o'ziga xos yutuqlarga erishgan ishtirokchi uchun"
+    },
+    "nominations_date": {
+      "gran_pri": "10-avgust",
+      "first": "9-avgust",
+      "second": "9-avgust",
+      "third": "9-avgust"
+    },
+    "nominations_location": {
+      "gran_pri": "Arda Xiva",
+      "first": "Ichan Qal'a",
+      "second": "Ichan Qal'a",
+      "third": "Ichan Qal'a"
+    },
+    "prizes": {
+      "tracker": "Tracker",
+      "onix": "Onix",
+      "gentra": "Gentra",
+      "damas": "Damas"
+    },
+    "titles": {
+      "gran_pri": "Gran-pri",
+      "first": "1-o‘rin",
+      "second": "2-o‘rin",
+      "third": "3-o‘rin"
+    }
+  },
+  "contents": {
+    "title": "Qovun Sayli festivali",
+    "subtitle": "Mundarijasi",
+    "menuItems": {
+      "1": {
+        "title": "Festival joyi va kirish",
+        "shortDesc": "Festival o‘tkaziladigan joy va kirish tartibi haqida ma’lumot",
+        "detailedInfo": {
+          "description": "Festival qadimiy Xiva shahrida, Arda Xiva hududida o‘tkaziladi. Kirish bepul, barcha mehmonlar uchun ochiq.",
+          "details": [
+            "Manzil: Xiva shahar, Arda Xiva",
+            "Kirish: Bepul",
+            "Ish vaqti: 10:00 – 22:00",
+            "Tashkilotchilar tomonidan xavfsizlik va qulaylik ta’minlanadi"
+          ],
+          "note": ""
+        }
+      },
+      "2": {
+        "title": "Festival dasturi",
+        "shortDesc": "Festival davomida o‘tkaziladigan asosiy tadbirlar",
+        "detailedInfo": {
+          "description": "Festivalda ochilish marosimi, qovun ko‘rgazmasi, tanlovlar va madaniy dasturlar bo‘lib o‘tadi.",
+          "details": [
+            "7 avgust kuni – soat 20:00 da Festival doirasida Xorazmning taniqli san’atkorlari konsert dasturi o‘tkaziladi.",
+            "8 avgust kuni – soat 20:00 da Festival doirasida DJ Macarella va taniqli xorijiy xonanda Maksimning konsert dasturi o‘tkaziladi.",
+            "8-9 avgust kunlari – soat 10:00 dan 19:00 gacha viloyatdagi shaharlar va tumanlar hokimliklari pavilonlarida qovun mahsulotlari ko‘rgazmasi o‘tkaziladi.",
+            "9 avgust kuni soat 20:00 da Festivalning taqdirlash marosimi va yopilish gala konsert dasturi o‘tkaziladi",
+            "Yopilish marosimiga bag‘ishlab tashkil qilinadigan konsert dasturida O‘zbekiston xalq artistlari G‘ulomjon Yoqubov va Gulsanam Mamazoitova, O‘zbekiston, Qoraqalpog‘iston xalq artsitlari G‘ofur va G‘ulom Eshchanovlar, O‘zbekistonda xizmat ko‘rsatgan artist Ziyoda, honanda Botir Qodirov va viloyatimizning taniqli san’atkorlari ishtirok etadi.",
+            "Shuningdek, 9 avgust kuni – soat 10:00 dan 19:00 gacha pavilonlarda tashkil qilingan qovun mahsulotlari ko‘rgazmasi hakamlar tomonidan baholanadi.",
+            "9 avgust kuni soat 20:00 da Festivalning taqdirlash marosimi va yopilish gala konsert dasturi tashkil etiladi.",
+            "Bundan tashqari, “Qovun sayli” festivali doirasida quyidagi tadbirlarni 8-9 avgust kunlari kun davomida o‘tkazish rejalashtirildi:",
+            "1. Madaniy tadbirlar: badiiy jamoalar va folklor guruhlarining jonli ijrodagi chiqishlari; Xon va ayonlari chiqishi, teatrlashtirilgan sahna ko‘rinishlari va qo‘g‘irchoq teatri tomoshalari; xalq og‘zaki ijodi namunalari va boshqa madaniy tadbirlar tashkil qilinadi.",
+            "2. Hunarmandchilik: Tasviriy va amaliy san’at asarlari namoyishi; milliy liboslar ko‘rgazmasi; hunarmandchilik mahsulotlari ko‘rgazmasi, kulolchilik ustalari tomonidan tayyorlangan mahsulotlar ko‘rgazmasi tashkil etiladi.",
+            "3. Milliy taomlar va qovun sayli: festival doirasida milliy taomlar va Xorazm nonlarini tayyorlash bo‘yicha mahorat darslari o‘tkaziladi.",
+            "4. Milliy sport turlari va xalq o‘yinlari: milliy sport turlari: milliy kurash, belbog‘li kurash, bel olish va uch kurash bahodirlar o‘yini va tosh ko‘tarish, o‘zbek jang san’ati, turon yakkakurashi, mas restling tashkil etilishi rejalashtirilgan. Xalq o‘yinlari: arqon tortish, oq terakmi – ko‘k terak, mindi, darra, kim oladi-ya, kim kuchli, xamir-patir o‘yinlari tashkil etilishi rejalashtirilgan.",
+            "Shu bilan birga festivalni tashkil etish bo‘yicha: mehmonlar va mahalliy aholi uchun maxsus fotosuratga tushish joylari tashkil etiladi. “Qovun sayli” festivaliga xorijiy va mahalliy sayyohlarni yanada ko‘proq jalb qilish maqsadida, festivalning rasmiy sayti, videorolik va targ‘ibot materiallari tayyorlanadi. Ommaviy axborot vositalari, keng auditoriyaga ega bo‘lgan internet saytlari va ijtimoiy tarmoqlardagi sahifalar orqali yoritib boriladi."
+          ],
+          "note": ""
+        }
+      },
+      "3": {
+        "title": "Tashkilotchilar va hamkorlar",
+        "shortDesc": "Festival tashkilotchilari va hamkorlari haqida ma’lumot",
+        "detailedInfo": {
+          "description": "Festival O‘zbekiston Respublikasi Qishloq xo‘jaligi vazirligi va mahalliy hokimiyatlar tomonidan tashkil etiladi.",
+          "details": [
+            "Tashkilotchilar: Qishloq xo‘jaligi vazirligi, Xiva shahar hokimligi",
+            "Hamkorlar: Turli tashkilot va kompaniyalar"
+          ],
+          "note": ""
+        }
+      },
+      "4": {
+        "title": "Xalqaro ishtirokchilar",
+        "shortDesc": "Festivalda ishtirok etuvchi xorijiy mehmonlar va delegatsiyalar",
+        "detailedInfo": {
+          "description": "Festivalda chet ellik mehmonlar va delegatsiyalar ham ishtirok etadi.",
+          "details": [
+            "Turli davlatlardan kelgan delegatsiyalar",
+            "Xalqaro hamkorlik va tajriba almashinuvi"
+          ],
+          "note": ""
+        }
+      },
+      "5": {
+        "title": "Ishtirokchilar va mehmonlar",
+        "shortDesc": "Festivalda qatnashuvchi fermerlar, hunarmandlar va mehmonlar",
+        "detailedInfo": {
+          "description": "Festivalda O‘zbekistonning barcha hududlaridan fermerlar, hunarmandlar va san’atkorlar ishtirok etadi.",
+          "note": {
+            "text": "Festivalda 200 dan ortiq fermer xo‘jaliklari va yuzlab mehmonlar qatnashadi."
+          }
+        }
+      },
+      "6": {
+        "title": "Nominatsiyalar va sovrinlar",
+        "shortDesc": "Festival doirasidagi tanlovlar va mukofotlar",
+        "detailedInfo": {
+          "description": "Eng yaxshi qovun yetishtiruvchilar uchun maxsus nominatsiyalar va sovrinlar taqdim etiladi.",
+          "note": ""
+        }
+      },
+      "7": {
+        "title": "Madaniy dastur",
+        "shortDesc": "Festival davomida o‘tkaziladigan madaniy tadbirlar",
+        "detailedInfo": {
+          "description": "Festivalda milliy folklor ansambllari, estrada yulduzlari va raqs guruhlari ishtirok etadi.",
+          "details": [
+            "Folklor ansambllari",
+            "Estrada yulduzlari",
+            "Raqs va o‘yinlar"
+          ]
+        }
+      },
+      "8": {
+        "title": "San’atkorlar ishtiroki",
+        "shortDesc": "Mashhur san’atkorlar va ularning chiqishlari",
+        "detailedInfo": {
+          "description": "Festivalda mashhur san’atkorlar ishtirok etib, o‘z chiqishlarini namoyish etadi.",
+          "note": {
+            "artist1": {
+              "date": "16-avgust"
+            }
+          }
+        }
+      },
+      "9": {
+        "title": "Milliy kiyimlar va hunarmandchilik",
+        "shortDesc": "Milliy kiyimlar va hunarmandchilik ko‘rgazmasi",
+        "detailedInfo": {
+          "description": "Festivalda milliy kiyimlar va hunarmandchilik mahsulotlari ko‘rgazmasi ham o‘tkaziladi.",
+          "note": {
+            "text": "Hunarmandlar o‘z mahsulotlarini namoyish etadi va sotadi."
+          }
+        }
+      }
+    },
+    "additional_info": {
+      "title": "Asosiy ma’lumotlar",
+      "items": {
+        "date": "Sana:",
+        "time": "Vaqt:",
+        "location": "Manzil:",
+        "visitors": "Tashrif buyuruvchilar soni:",
+        "prize": "Asosiy mukofot:"
+      },
+      "values": {
+        "date": "15-20 Avgust, 2025",
+        "time": "10:00 - 22:00",
+        "location": "Xiva shahar, Arda Xiva",
+        "visitors": "Kutilayotgan 5000+ mehmon",
+        "prize": "Chevrolet Tracker"
+      }
+    },
+    "contacts": {
+      "title": "Kontakt ma’lumotlari",
+      "items": [
+        {
+          "title": "Festival direktori:",
+          "content": "Abdurahmonov Bahrom, +998 90 123 45 67"
+        },
+        {
+          "title": "Matbuot kotibi:",
+          "content": "Karimova Dilnoza, +998 90 234 56 78"
+        },
+        {
+          "title": "Ishtirokchilar bilan ishlash bo‘limi:",
+          "content": "+998 90 345 67 89"
+        }
+      ]
+    },
+    "additional_elements": {
+      "title": "Qo‘shimcha elementlar",
+      "items": [
+        "Milliy taomlar festivali",
+        "Folklor kechalari",
+        "Hunarmandlar bozori",
+        "Qovun eksporti forumi",
+        "Foto ko‘rgazma",
+        "Qovun karalari tanlovi",
+        "Yoshlar dasturi",
+        "Virtual sayohat"
+      ]
+    }
+  },
+  "arda_khiva_location": "Arda Xiva joylashuvi",
+  "header": {
+    "call_phone": "Telefon orqali bog'lanish",
+    "send_email": "Elektron pochta",
+    "open_map": "Google Maps xaritasida ochish",
+    "khiva_360_title": "Xiva shahriga 360° virtual sayohat"
+  },
+  "hero": {
+    "badge": "Festivali 2026 • Xiva",
+    "bg_alt": "Qovun sayli festivali va Xiva Ichan Qal'a manzarasi",
+    "buy_tickets_title": "Festival chiptalarini xarid qilish sahifasiga o'tish",
+    "about_us_title": "Festival haqida batafsil ma'lumot olish",
+    "about_festival": "Festival haqida",
+    "about_festival_title": "Festival dasturi va ma'lumotlari bilan tanishish",
+    "about_us": "Biz haqimizda",
+    "badge_dynamic": "7-8-9-avgust, Khiva{{year}}",
+    "countdown_title": "Festival boshlanadi",
+    "days": "Kun",
+    "hours": "Soat",
+    "minutes": "Daqiqa",
+    "seconds": "Soniya"
+  }
+}

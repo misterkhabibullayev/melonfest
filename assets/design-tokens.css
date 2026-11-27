@@ -1,0 +1,111 @@
+/* Design Tokens - Qovun Sayli Palette */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-spacing-0: 0;
+  --primitive-spacing-1: 0.25rem;
+  --primitive-spacing-2: 0.5rem;
+  --primitive-spacing-3: 0.75rem;
+  --primitive-spacing-4: 1rem;
+  --primitive-spacing-5: 1.25rem;
+  --primitive-spacing-6: 1.5rem;
+  --primitive-spacing-8: 2rem;
+  --primitive-spacing-10: 2.5rem;
+  --primitive-spacing-12: 3rem;
+  --primitive-spacing-16: 4rem;
+  --primitive-spacing-20: 5rem;
+  --primitive-fontSize-xs: 0.75rem;
+  --primitive-fontSize-sm: 0.875rem;
+  --primitive-fontSize-base: 1rem;
+  --primitive-fontSize-lg: 1.125rem;
+  --primitive-fontSize-xl: 1.25rem;
+  --primitive-fontSize-2xl: 1.5rem;
+  --primitive-fontSize-3xl: 1.875rem;
+  --primitive-fontSize-4xl: 2.25rem;
+  --primitive-fontSize-5xl: 3rem;
+  --primitive-radius-none: 0;
+  --primitive-radius-sm: 0.25rem;
+  --primitive-radius-md: 0.5rem;
+  --primitive-radius-lg: 0.75rem;
+  --primitive-radius-xl: 1rem;
+  --primitive-radius-full: 9999px;
+  --primitive-duration-fast: 150ms;
+  --primitive-duration-normal: 250ms;
+  --primitive-duration-slow: 350ms;
+}
+
+/* === SEMANTIC (LIGHT MODE) === */
+:root {
+  --color-background: #FFF9E6;
+  --color-background-rgb: 255 249 230;
+  --color-surface: #FFFEF8;
+  --color-surface-rgb: 255 254 248;
+  --color-card: var(--color-surface);
+  --color-card-rgb: var(--color-surface-rgb);
+  --color-foreground: #2B3320;
+  --color-foreground-rgb: 43 51 32;
+  --color-secondary-text: #5A6148;
+  --color-secondary-text-rgb: 90 97 72;
+  --color-border: #E3EBCF;
+  --color-border-rgb: 227 235 207;
+  --color-primary: #4F7A1F;
+  --color-primary-rgb: 79 122 31;
+  --color-primary-hover: #3F6318;
+  --color-primary-hover-rgb: 63 99 24;
+  --color-primary-foreground: #FFFFFF;
+  --color-primary-foreground-rgb: 255 255 255;
+  --color-secondary: #4F7A1F;
+  --color-secondary-rgb: 79 122 31;
+  --color-secondary-foreground: #FFFFFF;
+  --color-secondary-foreground-rgb: 255 255 255;
+  --color-accent: #F2C14E;
+  --color-accent-rgb: 242 193 78;
+  --color-accent-hover: #E0AE3B;
+  --color-accent-hover-rgb: 224 174 59;
+  --color-accent-foreground: #14180F;
+  --color-accent-foreground-rgb: 20 24 15;
+  --color-urgent: #E5484D;
+  --color-urgent-rgb: 229 72 77;
+  --color-urgent-foreground: #FFFFFF;
+  --color-urgent-foreground-rgb: 255 255 255;
+  --color-ring: #4F7A1F;
+  --color-nav-bg: rgba(255, 254, 248, 0.9);
+}
+
+/* === DARK MODE === */
+.dark {
+  --color-background: #14180F;
+  --color-background-rgb: 20 24 15;
+  --color-surface: #1F2616;
+  --color-surface-rgb: 31 38 22;
+  --color-card: var(--color-surface);
+  --color-card-rgb: var(--color-surface-rgb);
+  --color-foreground: #E8ECD6;
+  --color-foreground-rgb: 232 236 214;
+  --color-secondary-text: #B5BBA0;
+  --color-secondary-text-rgb: 181 187 160;
+  --color-border: #2E3A20;
+  --color-border-rgb: 46 58 32;
+  --color-primary: #A6D45A;
+  --color-primary-rgb: 166 212 90;
+  --color-primary-hover: #B8E074;
+  --color-primary-hover-rgb: 184 224 116;
+  --color-primary-foreground: #14180F;
+  --color-primary-foreground-rgb: 20 24 15;
+  --color-secondary: #A6D45A;
+  --color-secondary-rgb: 166 212 90;
+  --color-secondary-foreground: #14180F;
+  --color-secondary-foreground-rgb: 20 24 15;
+  --color-accent: #F2C14E;
+  --color-accent-rgb: 242 193 78;
+  --color-accent-hover: #E0AE3B;
+  --color-accent-hover-rgb: 224 174 59;
+  --color-accent-foreground: #14180F;
+  --color-accent-foreground-rgb: 20 24 15;
+  --color-urgent: #EF6A6E;
+  --color-urgent-rgb: 239 106 110;
+  --color-urgent-foreground: #14180F;
+  --color-urgent-foreground-rgb: 20 24 15;
+  --color-ring: #A6D45A;
+  --color-nav-bg: rgba(31, 38, 22, 0.92);
+}
