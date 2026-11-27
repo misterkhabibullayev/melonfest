@@ -47,41 +47,32 @@ export const AboutSection = () => {
           <div className="lg:col-span-6 space-y-4">
             {/* Photo 1 (Main wide photo) */}
             <div className="relative rounded-2xl overflow-hidden border border-border shadow-md bg-card">
-              <picture>
-                <source srcSet="/media/hero-bg.webp" type="image/webp" />
-                <img
-                  src="/media/hero-bg.jpg"
-                  alt="Xiva Ichan Qal'a manzarasi va Qovun sayli muhiti"
-                  className="w-full h-56 sm:h-64 object-cover"
-                  loading="eager"
-                />
-              </picture>
+              <img
+                src="/media/about1.jpg"
+                alt="Qovun sayli festivali manzarasi"
+                className="w-full h-56 sm:h-64 object-cover"
+                loading="eager"
+              />
             </div>
 
             {/* Photos 2 & 3 (Two balanced photos below) */}
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-2xl overflow-hidden border border-border shadow-md bg-card">
-                <picture>
-                  <source srcSet="/media/melons/gurvak.webp" type="image/webp" />
-                  <img
-                    src="/media/melons/gurvak.jpg"
-                    alt="Xorazm gurvak qovuni"
-                    className="w-full h-40 sm:h-48 object-cover"
-                    loading="eager"
-                  />
-                </picture>
+                <img
+                  src="/media/about2.jpg"
+                  alt="Qovun sayli ko'rgazmasi"
+                  className="w-full h-40 sm:h-48 object-cover"
+                  loading="eager"
+                />
               </div>
 
               <div className="relative rounded-2xl overflow-hidden border border-border shadow-md bg-card">
-                <picture>
-                  <source srcSet="/media/melons/obi-novvot.webp" type="image/webp" />
-                  <img
-                    src="/media/melons/obi-novvot.jpg"
-                    alt="Obi novvot qovun navi"
-                    className="w-full h-40 sm:h-48 object-cover"
-                    loading="eager"
-                  />
-                </picture>
+                <img
+                  src="/media/about3.jpg"
+                  alt="Qovun sayli an'analari"
+                  className="w-full h-40 sm:h-48 object-cover"
+                  loading="eager"
+                />
               </div>
             </div>
           </div>
